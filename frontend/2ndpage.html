@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <h1>hello</h1>
+        <div class="form-contatiner">
+        <h1>Account setup</h1>
+        <form id="userForm">
+
+    <div class="card">
+        <label for="student_name">Name</label>
+      <input type="text" id="student_name" name="student_name">
+    </div>
+    <div class="card">
+        <label for="student_id">Student ID</label>
+      <input type="text" id="student_id" name="student_id">
+    </div>
+<label for="preferred_subjects">Study Subject:</label>
+
+<select name="preferred_subjects[]" id="preferred_subjects" multiple size="6">
+        <option value="Agile & Scrum Methodology">Agile & Scrum Methodology</option>
+    <option value="Algorithms & Data Structures">Algorithms & Data Structures</option>
+    <option value="Backend">Backend</option>
+    <option value="Big Data Tools">Big Data Tools</option>
+    <option value="Blockchain Fundamentals">Blockchain Fundamentals</option>
+    <option value="Cloud Computing">Cloud Computing</option>
+    <option value="Cybersecurity Basics">Cybersecurity Basics</option>
+    <option value="Data Visualization">Data Visualization</option>
+    <option value="Database Design & Management">Database Design & Management</option>
+    <option value="Deep Learning">Deep Learning</option>
+    <option value="DevOps & CI/CD">DevOps & CI/CD</option>
+    <option value="Frontend">Frontend</option>
+    <option value="Full Stack Web Development">Full Stack Web Development</option>
+    <option value="Git & Version Control">Git & Version Control</option>
+    <option value="Machine Learning">Machine Learning</option>
+    <option value="Mobile App Development">Mobile App Development</option>
+    <option value="Natural Language Processing">Natural Language Processing</option>
+    <option value="Python for Data Analysis">Python for Data Analysis</option>
+    <option value="SQL for Data Analysis">SQL for Data Analysis</option>
+    <option value="Software Testing & QA">Software Testing & QA</option>
+    <option value="Statistics for Data Science">Statistics for Data Science</option>
+    <option value="Technical Interview Prep">Technical Interview Prep</option>
+    <option value="UI/UX Design">UI/UX Design</option>
+  </select>
+    </div>
+
+    <div class="card">
+        <label for="study_times">Study Times</label>
+        <select type="text" id="study_times" name="study_times">
+             <option value="">Select a Time</option>
+            <option value="Mornings">Mornings</option>
+            <option value="Afternoons">Afternoons</option>
+            <option value="Evenings">Evenings</option>
+            <option value="Late Nights">Late Nights</option>
+          </select>
+    </div>
+        <div class="card">
+        <label for="personality_type">Personality</label>
+        <select  id="personality_type" name="personality_type" required>
+             <option value="">Select a Persoanlity Type</option>
+            <option value="ESTP">ESTP</option>
+            <option value="INFP">INFP</option>
+            <option value="ENFP">ENFP</option>
+            <option value="INFJ">INFJ</option>
+          </select>
+    </div>
+        </div>
+        <div class="card">
+        <label for="study_style">Study Type</label>
+        <select  id="study_style" name="study_style" required>
+            <option value="">Select a Studying Style</option>
+            <option value="Pair">Pair</option>
+            <option value="Flexible">Flexible</option>
+            <option value="Group">Group</option>
+            <option value="INFJ">INFJ</option>
+        </select>
+    </div>
+        <div class="card">
+        <label for="timezone">Time Zone</label>
+        <select id="timezone" name="timezone" required>
+          <option value="" disabled selected>Select your time zone</option>
+          <option value="UTC-8">UTC-8</option>
+          <option value="UTC-7">UTC-7</option>
+          <option value="UTC-6">UTC-6</option>
+          <option value="UTC-5">UTC-5</option>
+          <option value="UTC-4">UTC-4</option>
+          <option value="UTC+0">UTC+0</option>
+          <option value="UTC+1">UTC+1</option>
+          <option value="UTC+2">UTC+2</option>
+          <option value="UTC+5">UTC+5</option>
+          <option value="UTC+8">UTC+8</option>
+          </select>    
+     </div>
+
+        <div class="card">
+  <label for="days_of_wk_avail">Days Of The Week Available</label>
+  <select id="days_of_wk_avail" name="days_of_wk_avail" multiple required>
+    <option value="" disabled selected>Select your Study Days</option>
+    <option value="Mon">Mon</option>
+    <option value="Tue">Tue</option>
+    <option value="Wed">Wed</option>
+    <option value="Thu">Thu</option>
+    <option value="Fri">Fri</option>
+  </select>    
+</div>
+
+        <div class="card">
+  <label for="experience_level">Experience</label>
+  <select id="experience_level" name="experience_level" required>
+    <option value="" disabled selected>Select your Experience Level</option>
+    <option value="Beginner">Beginner</option>
+    <option value="Intermediate">Intermediate</option>
+    <option value="Advanced">Advanced</option>
+  </select>    
+</div>
+
+    <div class="card">
+      <label for="GPA">GPA</label>
+      <input type="number" id="GPA" name="GPA"
+      step="0.01" min="0" max="4.00" placeholder="Enter GPA ">
+    </div>
+
+    <button type="submit">Create User</button>
+
+   <button ><a  href="3rd.html">thirdpage page</a></button>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
