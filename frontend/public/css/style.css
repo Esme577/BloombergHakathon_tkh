@@ -1,11 +1,20 @@
+/*css for body*/
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/056/391/675/non_2x/two-students-studying-together-with-books-and-notes-on-a-table-vector.jpg');
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-position: center; 
+  font-family: Arial, sans-serif;
+}
+
 /*css for navbar*/
 .navbar {
-  background-color: #F9EFEF;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  color: #F9EFEF;
   font-family: Arial, sans-serif;
 }
 
@@ -43,7 +52,6 @@
 }
 
 .description {
-  background-color: #F9EFEF;
   color: black;
   border-radius: 16px;
   padding: 30px;
@@ -72,7 +80,6 @@
 }
 
 .success-container .container {
-  background-color: #cdb4db;
   color: black;
   border-radius: 16px;
   padding: 20px;
@@ -85,4 +92,11 @@
 .success-container .name {
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+
+.navbar,
+.description,
+.success-container .container {
+  background-color: rgba(255, 255, 255, 0.85);
 }

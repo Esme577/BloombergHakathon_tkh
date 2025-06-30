@@ -26,17 +26,17 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class = "success-container">
         <div class = "container">
             <h3 class = "name">Rebecca</h3>
-            <p>hjfkd; sajfdk lsfjdklf jklds; fjdk;sjfdskljfdkls;fjkal;s;</p>
+            <p class = "description-text">StudyBuddy connected me with peers who matched my schedule and learning style—now studying feels productive and fun!</p>
         </div>
 
         <div class = "container">
             <h3 class = "name">Joshua</h3>
-            <p>hjfkd;saj fdklsfjdk lfjklds;fjdk;sj fdskljfdkls ;fjkal;s;</p>
+            <p class = "description-text">I used to struggle with motivation, but through StudyBuddy I found an accountability partner who kept me on track every week.</p>
         </div>
 
         <div class = "container">
             <h3 class = "name">David</h3>
-            <p>hjfk d;s ajfdkl sfjdkl fjklds;fjdk; sjfdskljfd kls;f jkal;s;</p>
+            <p class = "description-text">Thanks to StudyBuddy, I joined a study group that helped me finally understand algorithms—and I aced my midterms!</p>
         </div>
     </div>
   `;
