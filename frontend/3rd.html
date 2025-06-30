@@ -5,12 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style3.css">
+    
 </head>
 <body>
-   <div id="app">
-      <a  href="2ndpage.html"><button >second page</button></a>
-    </div>
-    
-  <script type="module" src="/src/main.js"></script>
+  <div id="app">
+    <a href="2ndpage.html"><button>Second Page</button></a>
+
+    <!-- Start: Buddy Browser UI -->
+    <header>
+      <h1>Buddies-Browser</h1>
+      <p>Connect with students studying the same subject as you!</p>
+    </header>
+
+    <section class="controls">
+      <div class="filter-bar">
+        <label for="subject-filter">Subject:</label>
+        <select id="subject-filter">
+          <option value="">All Subjects</option>
+        </select>
+
+        <label for="experience-filter">Experience:</label>
+        <select id="experience-filter">
+          <option value="">All Levels</option>
+        </select>
+
+        <label for="timezone-filter">Timezone:</label>
+        <select id="timezone-filter">
+          <option value="">All Timezones</option>
+        </select>
+      </div>
+
+      <div class="search-bar">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search by subject or availability..."
+        />
+        <button id="clear-search">Clear</button>
+      </div>
+    </section>
+
+    <section id="buddy-list"></section>
+    <p id="no-results" style="display: none; text-align: center; font-style: italic; margin-top: 20px;">
+      No matching buddies found.
+    </p>
+    <!-- End: Buddy Browser UI -->
+  </div>
+
+
+  <script type="module" src="/src/buddy-browser.js"></script>
 </body>
+
 </html>
