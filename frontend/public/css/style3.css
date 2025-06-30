@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  #clear-search {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #eee;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ddd;
+  }
+  
+  .buddy-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .buddy-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .avatar {
+    font-size: 2.5rem;
+    margin-right: 15px;
+  }
+  
+  .buddy-info {
+    flex: 1;
+  }
+  
+  .buddy-info h3 {
+    margin: 0 0 5px;
+  }
+  
+  .buddy-info p {
+    margin: 4px 0;
+  }
+  
+  .message-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: 10px;
+  }
+  
+  .message-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .filter-bar label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .filter-bar select,
+  #search-input,
+  #clear-search {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  #no-results {
+    transition: opacity 0.3s ease;
+    color: #555;
+  }
+  
