@@ -65,6 +65,11 @@ app.post("/mockDataSet", async function (req, res) {
     });
 });
 
+app.get("/", (req, res) =>
+{
+    res.sendFile("index.html")
+})
+
 
 app.listen(8080, function () {
     console.log("Server is listening on port 8080");
